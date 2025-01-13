@@ -34,6 +34,7 @@ export default function HeroSection() {
               <div className="bg-emerald-500/50 backdrop-blur-lg z-[-1] absolute top-[20%] bottom-0 left-0 right-0 rounded-lg" />
               <div className="aspect-w-16 aspect-h-9 lg:h-[400px]">
                 <Image
+                  priority
                   src="/brett.png"
                   alt="Brett Westwood"
                   width={1740}
